@@ -1,0 +1,15 @@
+{
+  "name": "meteor-app",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "leaflet": "^0.7.7",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-leaflet": "^0.10.2",
+    "react-leaflet-marker-layer": "^0.1.4"
+  }
+}

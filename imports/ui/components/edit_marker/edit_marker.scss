@@ -1,0 +1,43 @@
+.edit_marker {
+    position: relative;
+    width: 100px;
+    height: 100px;
+//    background-color: grey;
+    .marker {
+        top: 38px;
+        left: 38px;
+        width: 20px;
+        height: 20px;
+        border-radius: 12px;
+        border: blue solid 2px;
+        position: absolute;
+        .toolbox {
+            transition: transform .45s ease;
+            transform: scale(0, 0);
+            .tool {
+                width: 5px;
+                height: 5px;
+                border-radius: 5px;
+                border: blue solid 2px;
+                position: absolute;
+                &:nth-child(1) {
+                    left: 30px;
+                    top: -25px;
+                }
+                &:nth-child(2) {
+                    left: 40px;
+                    top: 0px;
+                }
+                &:nth-child(3) {
+                    left: 30px;
+                    top: 35px;
+                }
+            }
+        }
+        &:hover {
+            .toolbox {
+                transform: scale(1, 1);
+            }
+        }
+    }
+}
