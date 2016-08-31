@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "leaflet": "^0.7.7",
+    "leaflet-draw": "^0.3.2",
     "meteor-node-stubs": "~0.2.0",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
